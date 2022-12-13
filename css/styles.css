@@ -177,7 +177,13 @@ body{
 /*#region ---Hero--- */
 
 .hero {
-    background-color: var(--nuvy-blue);
+    background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office-hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     padding-top: 192px;
     padding-bottom: 192px;
@@ -275,6 +281,24 @@ body{
 }
 
 /*#endregion -------------------- Team End -------------------- */
+
+/*#region ---Customers--- */
+.customers-list{
+    display: flex;
+    gap: 24px;
+}
+
+.customers-item{
+    display: block;
+}
+
+.customers-item:hover,
+.customers-item:focus{
+    
+
+}
+
+/*#endregion -------------------- Customers End -------------------- */
 
 /*#region ---Footer--- */
 
